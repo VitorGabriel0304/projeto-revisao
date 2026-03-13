@@ -18,7 +18,7 @@ def home():
 
 @app.route('/revisao')
 def revisao():
-    nome='Rian'
+    nome='Vitor'
     return render_template('variaveis.html', idade=18, nome=nome)
 
 @app.route('/produtos/cadastar')
